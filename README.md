@@ -1,2 +1,1 @@
-# Resume
-My online resume
+# Your frontend live here
