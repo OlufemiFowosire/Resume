@@ -7,9 +7,9 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     - uses: azure/login@v1
       with:
           creds: ${{ secrets.AZURE_OLUFEMI_RESUME_CREDENTIALS }}
