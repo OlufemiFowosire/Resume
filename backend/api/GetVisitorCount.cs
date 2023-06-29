@@ -23,7 +23,7 @@ namespace Bitmacs.Function
             [CosmosDB(databaseName: "resume-db", collectionName: "count-container", ConnectionStringSetting = "cosmosDBConnection", Id = "1", PartitionKey = "1")] out Counter updatedCounter,
             ILogger log
         ){
-            // To update the count number
+            // To update the site visit count number
             updatedCounter = counter;
             updatedCounter.Count += 1;
             
