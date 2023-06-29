@@ -1,0 +1,38 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "cosmosDBConnection": "AccountEndpoint=https://olufemi-resume.documents.azure.com:443/;AccountKey=jv1GWF00l6k89sqlOvXxCzOCBWsQ3kOVGnRjW4EvB0uVnXx3TLDZNNOyqhzj3UvpsQ7x3bUQrrThACDbvO4DCQ==;"
+  },
+  "HOST":
+  {
+    "CORS": "*"
+  },
+  "AZURE_CREDENTIALS":
+  {
+    "clientId": "bdcfb701-615c-4222-b996-38a60ad6cf50",
+    "clientSecret": "9wY8Q~upENp4mv88SinjNrcvHdI2e10oNSGhDdAf",
+    "subscriptionId": "2a210128-82d4-4ace-bd37-d471f0ba704a",
+    "tenantId": "925b1d01-5bfc-41a0-8fdb-836e2e57b20b",
+    "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+    "resourceManagerEndpointUrl": "https://management.azure.com",
+    "activeDirectoryGraphResourceId": "https://graph.microsoft.com",
+    "sqlManagementEndpointUrl": "https://management.core.windows.net:8443",
+    "galleryEndpointUrl": "https://gallery.azure.com",
+    "managementEndpointUrl": "https://management.core.windows.net"
+  },
+  "AZURE_OLUFEMI_RESUME_CREDENTIALS":
+  {
+    "clientId": "d02421b2-70d9-462a-8b24-b33c1e424f4c",
+    "clientSecret": "uTO8Q~0L.iDphTosfnrzG3bGrlGEAKZkHUIscbxo",
+    "subscriptionId": "2a210128-82d4-4ace-bd37-d471f0ba704a",
+    "tenantId": "925b1d01-5bfc-41a0-8fdb-836e2e57b20b",
+    "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+    "resourceManagerEndpointUrl": "https://management.azure.com/",
+    "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+    "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+    "galleryEndpointUrl": "https://gallery.azure.com/",
+    "managementEndpointUrl": "https://management.core.windows.net/"
+  }
+}

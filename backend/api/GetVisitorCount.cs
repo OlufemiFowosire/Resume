@@ -18,7 +18,7 @@ namespace Bitmacs.Function
 
         [FunctionName("GetVisitorCount")]
         public static HttpResponseMessage Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestMessage req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req,
             [CosmosDB(databaseName: "resume-db", collectionName: "count-container", ConnectionStringSetting = "cosmosDBConnection", Id = "1", PartitionKey = "1")] Counter counter,
             [CosmosDB(databaseName: "resume-db", collectionName: "count-container", ConnectionStringSetting = "cosmosDBConnection", Id = "1", PartitionKey = "1")] out Counter updatedCounter,
             ILogger log
@@ -30,7 +30,6 @@ namespace Bitmacs.Function
 
             var jsonToReturn = JsonConvert.SerializeObject(counter);
             
-            var response = req.CreateResponse(HttpStatusCode.OK);
             return new HttpResponseMessage(HttpStatusCode.OK){
                 Content = new StringContent(jsonToReturn, Encoding.UTF8, "application/json")
             };
