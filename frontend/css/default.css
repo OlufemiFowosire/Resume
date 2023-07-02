@@ -315,13 +315,13 @@ ol ol li, ol ul li { margin-bottom: 6px; }
 li { line-height: 18px; margin-bottom: 12px; }
 ul.large li { }
 li p { }
-ul {
+li {
    padding: 0;
    margin: 0;
    list-style-type: none;
 }
 
-ul li::before {
+p li::before {
    content: "\2022"; /* Unicode character for bullet point */
    margin-right: 8px; /* Adjust the spacing between the bullet point and the list item */
 }
