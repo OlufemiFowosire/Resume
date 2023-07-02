@@ -321,7 +321,7 @@ li {
    list-style-type: none;
 }
 
-p li::before {
+p>li::before {
    content: "\2022"; /* Unicode character for bullet point */
    margin-right: 8px; /* Adjust the spacing between the bullet point and the list item */
 }
