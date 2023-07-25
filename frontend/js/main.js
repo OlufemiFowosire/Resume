@@ -8,10 +8,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 const functionAPIUrl = "https://getvisitorcount.azurewebsites.net/api/GetVisitorCount?code=qg5UPd8h2ye-qiWxeOqobFECzmJGpOpfxsgbqFgmH9WwAzFuzvxdhg==";
 const localFunctionAPI = 'http://localhost:7071/api/GetVisitorCount';
+const prvFunctnAPI = "getviewscounter.privatelink.azurewebsites.net";
 
 const getVisitorCount = async () => {
     try {
-        const response = await fetch(functionAPIUrl);
+        const response = await fetch(prvFunctnAPI);
         if (response.ok) {
             const data = await response.json();
             console.log("Website called function API.");
