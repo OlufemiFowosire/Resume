@@ -12,7 +12,7 @@ const prvFunctnAPI = "getviewscounter.privatelink.azurewebsites.net";
 
 const getVisitorCount = async () => {
     try {
-        const response = await fetch(prvFunctnAPI);
+        const response = await fetch(functionAPIUrl);
         if (response.ok) {
             const data = await response.json();
             console.log("Website called function API.");
