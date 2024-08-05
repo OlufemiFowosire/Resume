@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = tests
-build_property.ProjectDir = c:\Resume\backend\tests\
+build_property.ProjectDir = C:\Resume\backend\tests\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

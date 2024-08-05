@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    ".NETCoreApp,Version=v3.1": {
       "coverlet.collector/3.2.0": {
         "type": "package",
         "build": {
@@ -10887,7 +10887,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "api >= 1.0.0",
@@ -10898,8 +10898,7 @@
   },
   "packageFolders": {
     "C:\\Users\\Olufemi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -10911,17 +10910,15 @@
       "outputPath": "C:\\Resume\\backend\\tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Olufemi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "netCoreApp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -10929,8 +10926,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netCoreApp3.1",
           "projectReferences": {
             "C:\\Resume\\backend\\api\\api.csproj": {
               "projectPath": "C:\\Resume\\backend\\api\\api.csproj"
@@ -10942,11 +10939,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netCoreApp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
@@ -10989,7 +10991,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
